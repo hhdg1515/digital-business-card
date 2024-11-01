@@ -1,0 +1,108 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #23252C;
+    font-family: 'Inter', sans-serif;
+    padding: 30px 150px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    background-color: #1A1B21;
+    width: 375px;
+    border: solid 1px black;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.about, .interests {
+    padding: 0 35px;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.my-name {
+    margin-bottom: 0;
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+}
+
+.job-title {
+    color: #F3BF99;
+    margin-bottom: 0;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.website {
+    text-decoration: none;
+    margin-bottom: 16px;
+    margin-top: 8px;
+    font-size: 14px;
+    color: #F5F5F5;
+}
+
+.website:hover, .website:focus {
+    color: #F3BF99;
+}
+
+.btn-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #D1D5DB;
+    color: black;
+    font-size: 14px;
+    margin: 0 35px 20px;
+    border-radius: 6px;
+}
+
+.icon {
+    height: 10px;
+    width: 13px;
+    margin-right: 8px;
+}
+
+h4 {
+    font-size: 16px;
+    font-weight: 700;
+    color: #F5F5F5;
+    margin-top: 1em;
+    margin-bottom: 5px;
+}
+
+h4 + p {
+    font-size: 14px;
+    color: #DCDCDC;
+    line-height: 15px
+}
+
+.social-icons {
+    display: flex;
+    justify-content: space-around;
+    background-color: #161619;
+    padding: 23px 50px;
+    margin-top: 25px;  
+}
+
+.social-icon {
+    width: 25px;
+    height: 25px;
+}
+
+.social-icon:hover, .social-icon:focus {
+    opacity: .5;
+}
